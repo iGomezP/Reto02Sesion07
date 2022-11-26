@@ -21,7 +21,7 @@ pipeline {
 
         stage('DevOps') {
             steps {
-                echo 'Código modificado, ahora funciona :)'
+                echo 'Código modificado, ahora funciona'
             }
         }
     }
