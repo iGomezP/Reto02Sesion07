@@ -18,5 +18,11 @@ pipeline {
                 echo 'Deploy'
             }
         }
+
+        stage('DevOps') {
+            steps {
+                echo 'Código modificado, ahora funciona :)'
+            }
+        }
     }
 }
